@@ -1,0 +1,29 @@
+modLoader="javafxmod"
+loaderVersion="[1,)"
+license="MIT"
+showAsResourcePack=false
+update_json_url=""
+
+[[mods]]
+modId="deathstarmod"
+version="1.0.0"
+displayName="Death Star Mod"
+displayURL=""
+logoFile=""
+credits=""
+author="DeathStar"
+description="""A mod that adds a Death Star block that creates massive 1000x1000 explosions!"""
+
+[[dependencies.deathstarmod]]
+    modId="neoforge"
+    mandatory=true
+    versionRange="[21,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.deathstarmod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.21.1,1.22)"
+    ordering="NONE"
+    side="BOTH"
