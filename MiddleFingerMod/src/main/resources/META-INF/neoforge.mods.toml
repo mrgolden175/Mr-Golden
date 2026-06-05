@@ -1,0 +1,26 @@
+modLoader="javafxmod"
+loaderVersion="[1,)"
+license="MIT"
+showAsResourcePack=false
+
+[[mods]]
+modId="middlefingermod"
+version="1.0.0"
+displayName="Middle Finger Mod"
+credits=""
+author="MiddleFinger"
+description="""Press Z to make your character show the middle finger! A fun gesture mod for Minecraft."""
+
+[[dependencies.middlefingermod]]
+    modId="neoforge"
+    mandatory=true
+    versionRange="[21,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.middlefingermod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.21.1,1.22)"
+    ordering="NONE"
+    side="BOTH"
