@@ -1,0 +1,26 @@
+modLoader="javafxmod"
+loaderVersion="[1,)"
+license="MIT"
+showAsResourcePack=false
+
+[[mods]]
+modId="milksplashmod"
+version="1.0.0"
+displayName="Milk Splash Potion Mod"
+credits=""
+author="MilkSplash"
+description="""A mod that adds splash milk potions that remove all potion effects when thrown!"""
+
+[[dependencies.milksplashmod]]
+    modId="neoforge"
+    mandatory=true
+    versionRange="[21,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.milksplashmod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.21.1,1.22)"
+    ordering="NONE"
+    side="BOTH"
